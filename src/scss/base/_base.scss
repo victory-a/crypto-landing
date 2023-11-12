@@ -108,7 +108,18 @@ td {
 }
 
 .main-logo {
+	display: flex;
+	align-items: center;
+
 	p {
 		color: #fff;
+		margin-right: 5px;
+		margin-bottom: 0 !important;
+		line-height: 1 !important;
+		font-size: 40px !important;
+	}
+
+	img {
+		height: 30px;
 	}
 }
